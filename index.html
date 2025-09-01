@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markus Prap Kurniawan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="tech-background">
+        <i class="fab fa-js-square tech-icon"></i>
+        <i class="fab fa-html5 tech-icon"></i>
+        <i class="fab fa-css3-alt tech-icon"></i>
+        <i class="fab fa-react tech-icon"></i>
+        <i class="fab fa-node-js tech-icon"></i>
+        <i class="fab fa-python tech-icon"></i>
+        <i class="fab fa-git-alt tech-icon"></i>
+        <i class="fab fa-github tech-icon"></i>
+        <i class="fas fa-database tech-icon"></i>
+        <i class="fas fa-code tech-icon"></i>
+        <i class="fas fa-laptop-code tech-icon"></i>
+        <i class="fas fa-server tech-icon"></i>
+        <i class="fas fa-cogs tech-icon"></i>
+        <i class="fas fa-bug tech-icon"></i>
+        <i class="fas fa-terminal tech-icon"></i>
+    </div>
+    
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">markusdev_</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" id="menu-toggle">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting">— Hello —</div>
+                    <h1 class="main-title">
+                        I'm <span class="typing-text" id="typingText"></span>
+                    </h1>
+                    <p class="subtitle">Software Engineer focused on Frontend Development</p>
+                    <p class="description">Passionate learner building practical applications and technology.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="about-section-container">
+            <article id="about">
+                <h2>About Me</h2>
+                <p>I'm a passionate learner and Software Engineer with a focus on Frontend Development and growing skills in Backend and AI. Currently, I balance my career in finance with building personal projects, where I enjoy turning ideas into practical and user-friendly applications. My goals is to keep learning, growing, and creating technology that makes a positive impact.</p>
+            </article>
+
+            <aside class="sidebar-info">
+                <div class="profile-section">
+                    <div class="aside-photo-container">
+                        <img src="assets/profile.png" alt="Markus Prap Kurniawan Profile Photo" class="aside-profile-photo">
+                    </div>
+                </div>
+                <h3>Personal Info</h3>
+                <div class="info-item">
+                    <i class="fas fa-user"></i>
+                    <span>Markus Prap Kurniawan</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>26 years old</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-code"></i>
+                    <span>Frontend Engineer</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Jombang, East Java, Indonesia</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/markusprap/" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/markusprap" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/markusprap/" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </aside>
+        </div>
+
+        <article id="work">
+            <h2>My Work</h2>
+            <div class="work-container">
+                <button class="scroll-btn scroll-left" id="scrollLeft">‹</button>
+                <div class="work-slider">
+                    <div class="project">
+                        <h3>Personal Website</h3>
+                        <p>Modern personal portfolio website showcasing skills and projects. Built with semantic HTML5, responsive CSS3, and interactive JavaScript features.</p>
+                        <div class="tech-stack">HTML • CSS • JavaScript</div>
+                    </div>
+                    <div class="project">
+                        <h3>Waste Classification Webapp</h3>
+                        <p>AI-powered web application for automatic waste classification. Helps users categorize waste types for better environmental sustainability.</p>
+                        <div class="tech-stack">Next.js • Node.js • Flask • TensorFlow</div>
+                    </div>
+                    <div class="project">
+                        <h3>MediaSync - Clinic Management System</h3>
+                        <p>Comprehensive clinic management system for healthcare providers. Features appointment scheduling, patient records, and medical inventory management.</p>
+                        <div class="tech-stack">Next.js • Python</div>
+                    </div>
+                    <div class="project">
+                        <h3>Sales Dashboard Management</h3>
+                        <p>Interactive sales analytics dashboard with real-time data visualization. Provides insights into sales performance, trends, and forecasting.</p>
+                        <div class="tech-stack">Laravel</div>
+                    </div>
+                </div>
+                <button class="scroll-btn scroll-right" id="scrollRight">›</button>
+            </div>
+        </article>
+        
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <h2>Get In Touch</h2>
+                <p class="contact-intro">Interested in working together? Let's connect and discuss your next project.</p>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Markus Prap Kurniawan.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
