@@ -880,8 +880,15 @@ footer p {
         margin: 0;
     }
     article {
-        padding: 0 1rem;
+        padding: 0 1.5rem;
         margin-bottom: 3rem;
+    }
+    article#work {
+        padding: 2rem 1.5rem;
+    }
+    .work-container {
+        margin-top: 1.5rem;
+        padding: 0 0.5rem;
     }
     .work-grid {
         grid-template-columns: 1fr;
@@ -963,6 +970,13 @@ footer p {
     }
     
     article {
+        padding: 0 1rem;
+    }
+    article#work {
+        padding: 1.5rem 1rem;
+    }
+    .work-container {
+        margin-top: 1rem;
         padding: 0 0.5rem;
     }
     .project {
