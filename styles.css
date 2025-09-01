@@ -792,6 +792,8 @@ footer p {
         backdrop-filter: blur(10px);
         padding: 1rem 0;
         border-top: 1px solid #f0f0f0;
+        text-align: center;
+        align-items: center;
     }
     .nav-menu.active {
         display: flex;
@@ -867,6 +869,16 @@ footer p {
     .sidebar-info {
         margin: 0 1rem 3rem;
         padding: 1.5rem;
+        text-align: center;
+    }
+    
+    .sidebar-info .profile-section {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .sidebar-info .info-item {
+        justify-content: center;
     }
     
     .about-section-container {
@@ -962,6 +974,16 @@ footer p {
     .sidebar-info {
         margin: 0 0.5rem 2rem;
         padding: 1rem;
+        text-align: center;
+    }
+    
+    .sidebar-info .profile-section {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    .sidebar-info .info-item {
+        justify-content: center;
     }
     
     .about-section-container {
